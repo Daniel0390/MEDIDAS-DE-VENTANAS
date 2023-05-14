@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+    <title>Document</title>
+</head>
+<body>
+   <div class="contenedor_1">
+      
+    <form id="mi_formulario">
+      <div id="contenedor_2">
+        <label><b>anchura</b></label> 
+        <input type="number" step="any" id="valor1" autofocus placeholder="esribe un numero">
+           <button onclick="limpiar();" id="boton2"><b>limpiar</b></button>
+
+
+
+    <br>
+    <br>
+         
+         <label><b>altura</b></label> 
+         <input type="number" step="any" id="valor2" autofocus placeholder="escrive un numero">
+      </div>
+      <br>
+      <br>
+      
+      <label><b>valor de resto</b></label>  
+         <input type="number" readonly value=".37" id="elresto"  class="inp2"><br>
+      <label><b>valor de divicion</b></label>
+          <input type="number" readonly value="2" id="eldivisor"  class="inp2"><br>
+      <label><b>resto de altura</b></label>  
+         <input type="number" readonly value="1" id="elresto_alt" class="inp2"><br>
+      <label><b>resto de rieles</b></label> 
+         <input type="number" readonly value=".25" id="elrestorieles" class="inp2"><br>
+      <label><b>resto de laterales</b></label>
+       <input type="number" readonly value=".62" id="elrestolate" class="inp2"><br>
+      
+    <br>
+    
+       
+         
+         <button type="button" onclick="calcular();" class="boton1"><B></B>calcular<B></B></button>
+         
+        
+
+    <br>
+    <br>
+
+         <p style="background-color: rgb(0, 0, 0);"><b>es =</b>      &#160  &#160  &#160&#160 &#160 &#160 &#160   :  <span id="alf_result" ></span></p>
+         <p><b>alfersal  </b>  &#160 &#160   &#160&#160 &#160  :               <span id="alf_result2" ></span></p>
+         <p><b>jamb      </b>      &#160 &#160  &#160 &#160 &#160  &#160&#160 :    <span id="jamb_result"></span></p>
+         <p><b>rieles   </b>    &#160 &#160 &#160  &#160 &#160 &#160  &#160:    <span id="rieles_result"></span></p>
+         <p><b>laterales</b> &#160 &#160 &#160  &#160 :                      <span id="laterales_result"></span></p>
+    
+
+         
+           
+
+
+    </form>
+
+
+   
+   </div>
+
+   
+   
+
+
+
+
+
+
+    <script src="codigo.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.contenedor_1{
+    border: gray 1px solid;
+    width: 300px;
+    height: 700px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: bisque;
+    position: relative;
+}
+
+#contenedor_2{
+    border: 1px rgb(19, 19, 19) solid;
+    border-radius: 10px;
+    position: relative;
+    
+
+   
+}
+
+/* label{
+    font-size: 30px;
+} */
+
+
+
+p{
+    font-size: 30px;  
+}
+
+.boton1{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    background-color: darkgreen;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#boton2{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    top: 0px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+input{
+    height: 35px;
+    border-radius: 10px;
+}
+
+.medidas_numeros{
+    border: gray solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    right: 40%;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+}
+
+.ventana{
+    position: absolute;
+    right: 10%;
+}
+.inp2{
+    height: 9px;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width : 372px ){
+    #boton1{
+        left: 70px;
+    }
+} */
